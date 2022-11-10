@@ -1,27 +1,68 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
-    <link
-      rel="shortcut icon"
-      sizes="16x16 32x32 64x64"
-      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
-    />
-    <title>Home -my first website</title>
-    <meta charset="utf-8" />
-    <meta name="discription" content="this is my website" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
+    <h1>Create An Account</h1>
     <form>
-      <header>
-        <h1>Website</h1>
-      </header>
-      <main>
-        <p>Hello!</p>
-        <span>hello!</span>
-      </main>
-      <footer>
-        2022 
-      </footer>
+      <div>
+        <label
+          >First name<input id="first-name" required placeholder="First name"
+        /></label>
+      </div>
+
+      <div>
+        <label
+          >Last name<input id="last-name" required placeholder="Last name"
+        /></label>
+      </div>
+
+      <div>
+        <label>Email<input id="email" required placeholder="Email" /></label>
+      </div>
+
+      <div>
+        <label
+          >Username<input id="username" required placeholder="Username"
+        /></label>
+      </div>
+
+      <div>
+        <label
+          >Password<input
+            id="password"
+            required
+            placeholder="Password"
+            minlength="10"
+        /></label>
+      </div>
+
+      <div>
+        <label
+          >Birth date<input
+            id="birth-date"
+            required
+            type="date"
+            max="9999-12-31"
+        /></label>
+      </div>
+
+      <div>
+        <label
+          >How happy are you?<input id="happiness" required type="range"
+        /></label>
+      </div>
+
+      <div>
+        <label>Color<input id="color" required type="color" /></label>
+      </div>
+
+      <div>
+        <input type="submit" value="Create Account" />
       </div>
     </form>
   </body>
